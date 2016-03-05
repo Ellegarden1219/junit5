@@ -188,5 +188,4 @@ public class DiscoverySelectorResolver {
 	private Optional<TestDescriptor> descriptorByUniqueId(UniqueId uniqueId) {
 		return (Optional<TestDescriptor>) engineDescriptor.findByUniqueId(uniqueId.getUniqueString());
 	}
-
 }

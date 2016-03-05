@@ -11,6 +11,7 @@
 package org.junit.gen5.engine.junit5.discovery;
 
 import static org.junit.gen5.api.Assertions.*;
+import static org.junit.gen5.api.Assertions.*;
 import static org.junit.gen5.engine.junit5.discovery.UniqueIdBuilder.*;
 
 import java.lang.reflect.Method;
@@ -18,6 +19,8 @@ import java.math.BigDecimal;
 
 import org.junit.gen5.api.Nested;
 import org.junit.gen5.api.Test;
+import org.junit.gen5.engine.UniqueId;
+import org.junit.gen5.engine.support.descriptor.EngineDescriptor;
 
 public class JUnit5TestableTests {
 
